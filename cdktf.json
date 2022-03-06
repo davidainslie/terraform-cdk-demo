@@ -1,0 +1,14 @@
+{
+  "language": "java",
+  "app": "mvn -e -q compile exec:java",
+  "projectId": "8aadb452-9b95-4818-a838-508dcd72715b",
+  "terraformProviders": [
+    "aws@~> 3.45",
+    "kreuzwerker/docker@~> 2.13.0"
+  ],
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
