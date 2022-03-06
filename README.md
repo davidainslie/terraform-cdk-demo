@@ -125,3 +125,6 @@ As usual, don't forget:
 ```shell
 cdktf destroy
 ```
+
+Note, there is also a different more thorough example using Terraform directly under the directory [terraform-not-cdk](terraform-not-cdk).
+Why? The plan is to come back to the CDK example and create another like it but use the non-cdk more thorough example - Watch this space.

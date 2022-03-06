@@ -13,3 +13,16 @@ cdktf.log
 target/
 /src/main/java/imports/
 /src/main/resources/imports/
+
+**/node_modules
+.terraform/
+**/.terraform/*
+*.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+*.tfstate.*
+*.terraform.lock.hcl
+private_ips.txt
+*.pem
+**/*.pem
